@@ -1,0 +1,14 @@
+{
+  "name": "ratechecker",
+  "version": "1.0.0",
+  "description": "backend entry project for notion",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ajayi olatunji",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
