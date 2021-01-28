@@ -16,3 +16,7 @@ function logtime() {
 app.set("view", __dirname + "/view"); //google how to set view path
 app.set("port", process.env.PORT || 1010); //google how to set dynamic port
 app = configure(app);
+
+app.listen(app.get("port"), function () {
+  console.log("On Port " + app.get("port") + "\n" + logtime());
+})
