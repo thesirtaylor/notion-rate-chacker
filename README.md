@@ -1,2 +1,2 @@
-# notion-rate-chacker
+# rate-chacker
 backend app for enye.tech entry
