@@ -6,7 +6,7 @@ var express = require("express"),
 module.exports = function (app) {
   router.get("/", (req, res) => {
     res.send(
-      "Hey, check out current exchange rate in multiple currencies.\nTry something like this to use the endpoint `https://notion-backend.herokuapp.com/api/rates?base=CZK&ampcurrency=EUR,GBP,USD` "
+      "Hey, check out current exchange rate in multiple currencies.\nTry something like this to use the endpoint 'https://notion-backend.herokuapp.com/api/rates?base=CZK&currency=EUR,GBP,USD' "
     );
   });
   router.get("/api/rates", rate.rate);
