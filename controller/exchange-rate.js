@@ -9,8 +9,6 @@ module.exports = {
           "https://api.exchangeratesapi.io/latest"
         );
         return res.status(HTTP_STATUS.FOUND).json({
-          warning:
-            "provide request query parameter strings like so 'https://notion-backend.herokuapp.com/api/rates?base=CZK&currency=EUR,GBP,USD'",
           result: data,
         });
       }
